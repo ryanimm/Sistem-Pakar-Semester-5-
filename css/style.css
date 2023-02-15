@@ -1,0 +1,564 @@
+    @import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .navbar {
+        font-weight: 500
+    }
+    
+    .nav-item::after {
+        content: '';
+        display: block;
+        width: 0px;
+        height: 2px;
+        background: #fec400;
+        transition: 0.4s
+    }
+    
+    .nav-item:hover::after {
+        width: 100%
+    }
+    
+    .navbar-dark .navbar-nav .active>.nav-link,
+    .navbar-dark .navbar-nav .nav-link.active,
+    .navbar-dark .navbar-nav .nav-link.show,
+    .navbar-dark .navbar-nav .show>.nav-link,
+    .navbar-dark .navbar-nav .nav-link:focus,
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: #fec400
+    }
+    
+    .nav-link {
+        padding: 10px 5px;
+        transition: 0.2s
+    }
+    
+    .banner-image {
+        background-image: url('../gambar/index/gambarjumbotron.jpg');
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        border-bottom: 5px solid #f49f16;
+    }
+    
+    .shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #17110f;
+    }
+    
+    .bannertext {
+        padding: 300px 0 150px 0;
+    }
+    
+    .banner-heading {
+        font-family: 'Lobster', cursive;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 100px;
+        margin-bottom: 30px;
+        color: #fff;
+    }
+    
+    .banner-sub-heading {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 30px;
+        margin-bottom: 50px;
+        color: #fff;
+    }
+    
+    .dropdown-item:hover {
+        background-color: #fed136;
+        color: #fff;
+    }
+    
+    .section {
+        padding-top: 6rem;
+        padding-bottom: 6rem
+    }
+    
+    .btn-success {
+        background-color: #17110f;
+        border-color: #17110f;
+        border-radius: 10px;
+        border: 2px solid transparent
+    }
+    
+    .btn-success:hover,
+    .btn-success:active {
+        background-color: #412d28;
+        border-color: #412d28;
+        border-radius: 10px;
+        border: 2px solid transparent
+    }
+    
+    .btn-success:focus {
+        background-color: #412d28;
+        border-color: #412d28;
+        border-radius: 10px;
+        box-shadow: none;
+        border: 2px solid transparent
+    }
+    
+    .title {
+        text-transform: uppercase;
+        font-weight: 900;
+        color: #17110f;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #17110f;
+    }
+    
+    .cuplikan {
+        min-height: 130px;
+    }
+    
+    .footer {
+        background-color: #17110f;
+    }
+    
+    .footertitle {
+        color: #fff
+    }
+    
+    hr {
+        opacity: 1;
+    }
+    
+    .linkfooter {
+        color: white;
+    }
+    
+    a:hover {
+        color: #f49f16;
+    }
+    
+    .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
+    
+    @media (max-width: 768px) {
+        .card-img-top {
+            width: 100%;
+            height: 50vw;
+            object-fit: cover;
+        }
+    }
+    
+    .judulkategori,
+    .isicaptionkategori {
+        color: #17110f;
+    }
+    
+    .card-title {
+        color: #17110f
+    }
+    
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        padding: 5px;
+        border-radius: 0.4em;
+        border: 1px solid #ddd;
+    }
+    
+    select option {
+        margin: 40px;
+        background: #fff3cd;
+        color: #000;
+        border: 1px solid #ddd;
+    }
+    /* select option[data-id="0"] {
+        color: #16110f;
+    }
+    
+    select option[data-id="1"] {
+        color: #cc66ff;
+    }
+    
+    select option[data-id="2"] {
+        color: #019AFF;
+    }
+    
+    select option[data-id="3"] {
+        color: #00CBFD;
+    }
+    
+    select option[data-id="4"] {
+        color: #00FEFE;
+    }
+    
+    select option[data-id="5"] {
+        color: #A4F804;
+    }
+    
+    select option[data-id="6"] {
+        color: #FFFC00;
+    }
+    
+    select option[data-id="7"] {
+        color: #FDCD01;
+    }
+    
+    select option[data-id="8"] {
+        color: #FD9A01;
+    }
+    
+    select option[data-id="9"] {
+        color: #FB6700;
+    } */
+    
+    .modifcard {
+        background-color: #17110f;
+        color: white;
+    }
+    
+    .modifgj {
+        font-weight: 600;
+    }
+    
+    select option {
+        color: #372a01;
+    }
+    
+    select option:hover {
+        background-color: red;
+    }
+    
+    select:disabled {
+        background-color: #cccccc;
+    }
+    
+    #tombol {
+        position: inherit;
+    }
+    
+    tbody.pilihkondisi td.opsi {
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    tbody.pilihkondisi td,
+    tbody.pilihkondisi td.gejala,
+    tbody.pilihkondisi th {
+        vertical-align: middle;
+    }
+    
+    tbody.pilihkondisi th {
+        text-align: center;
+        vertical-align: middle;
+        background: #ecf0f1;
+    }
+    
+    span.hasil {
+        padding: 8px;
+    }
+    
+    table.diagnosa th {
+        background-color: #16110f;
+        color: #fff;
+    }
+    
+    table.diagnosa {
+        border: 2px solid #16110f;
+    }
+    
+    table.table-bordered.diagnosa th {
+        border: 1px solid #16110f;
+    }
+    
+    table.table-bordered.diagnosa td {
+        border: 1px solid #e9d5eb;
+    }
+    /*Konsultasi*/
+    
+    table.konsultasi th {
+        background-color: #16110f;
+        color: #fff;
+    }
+    
+    table.konsultasi {
+        border: 1px solid #95afc0;
+    }
+    
+    table.table-bordered.konsultasi th {
+        border: 1px solid #95afc0;
+    }
+    
+    table.table-bordered.konsultasi td {
+        border: 1px solid #c9d1d9;
+    }
+    /*Riwayat*/
+    
+    table.riwayat th {
+        background-color: #16110f;
+        color: #fff;
+    }
+    
+    table.riwayat {
+        border: 1px solid #16110f;
+    }
+    
+    table.table-bordered.riwayat th {
+        border: 1px solid #16110f;
+    }
+    
+    table.table-bordered.riwayat td {
+        border: 1px solid #c9d1d9;
+        vertical-align: middle;
+    }
+    /* span.kondisipilih {
+        background-color: #2f2130;
+        padding: 2px 4px;
+        border-radius: 4px;
+    } */
+    
+    div.paging {
+        margin-top: 25px;
+    }
+    
+    div.paging {
+        padding: 2px;
+        margin: 2px;
+        text-align: left;
+        font-family: Tahoma;
+        font-size: 12px;
+    }
+    
+    div.paging span.disabled {
+        padding: 5px 5px 5px 5px;
+        margin-right: 2px;
+        border: 1px solid #999999;
+        color: #16110f;
+    }
+    
+    div.paging span.current {
+        padding: 6px 6px 6px 6px;
+        margin-right: 2px;
+        border: 1px solid #16110f;
+        font-weight: bold;
+        background-color: #16110f;
+        color: #FFFFFF;
+    }
+    
+    div.paging a {
+        padding: 5px 5px 5px 5px;
+        margin-right: 2px;
+        border: 1px solid #DEDFDE;
+        text-decoration: none;
+        color: #16110f;
+    }
+    
+    div.paging span.prevnext {
+        font-weight: bold;
+    }
+    
+    .margin4 {
+        margin: 4px;
+    }
+    
+    .well {
+        overflow: hidden;
+    }
+    
+    .well {
+        min-height: 20px;
+        padding: 19px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+    }
+    
+    .float {
+        background: #16110f;
+        color: white;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 14pt;
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #16110f;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        /* box-shadow: 2px 2px 3px #999; */
+        margin-top: 32px;
+    }
+    
+    #print {
+        border-bottom: 0;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 14pt;
+        background-color: #1abc9c;
+        color: #FFF;
+        border-radius: 2px;
+        text-align: center;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    
+    .text-primary {
+        color: #16110f!important;
+    }
+    
+    .box {
+        position: relative;
+        border-radius: 3px;
+        background: #ffffff;
+        border-top: 3px solid #d2d6de;
+        margin-bottom: 20px;
+        width: 100%;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
+    }
+    
+    .box.box-solid.box-info {
+        border: 1px solid #16110f;
+    }
+    
+    .box.box-solid.box-info>.box-header {
+        color: #fff;
+        background: #16110f;
+        background-color: #16110f;
+    }
+    
+    .box-header.with-border {
+        border-bottom: 1px solid #f4f4f4;
+    }
+    
+    .box-body {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        padding: 10px;
+    }
+    
+    .box-header>.fa,
+    .box-header>.glyphicon,
+    .box-header>.ion,
+    .box-header .box-title {
+        display: inline-block;
+        font-size: 18px;
+        margin: 0;
+        line-height: 1;
+    }
+    
+    .box-header {
+        color: #444;
+        display: block;
+        padding: 10px;
+        position: relative;
+    }
+    
+    .callout {
+        border-radius: 3px;
+        margin: 0 0 20px 0;
+        padding: 15px 30px 15px 15px;
+        font-size: 1.1rem;
+    }
+    
+    .img-bordered-sm {
+        border: 2px solid #16110f;
+        padding: 2px;
+    }
+    
+    h5.textdiagnosis {
+        font-weight: 500;
+        font-size: 1.1rem!important;
+    }
+    
+    .text-justify {
+        text-align: justify !important;
+    }
+    
+    .label {
+        display: inline;
+        padding: 0.2em 0.6em 0.3em;
+        font-size: 75%;
+        font-weight: 700;
+        line-height: 1;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: 0.25em;
+    }
+    
+    .label-default {
+        background-color: #d2d6de;
+        color: #444;
+    }
+    
+    @media print {
+        body * {
+            visibility: hidden;
+        }
+        #section-to-print,
+        #section-to-print * {
+            visibility: visible;
+        }
+        #section-to-print {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+    
+    .hasildiag {
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 72px 150px 25px 150px;
+        box-shadow: 0 3px 20px 0px rgb(0 0 0 / 10%);
+        margin-top: 5rem!important;
+        margin-bottom: 5rem!important;
+        margin-right: 10rem!important;
+        margin-left: 10rem!important;
+    }
+    
+    @media (max-width: 992px) {
+        .hasildiag {
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 36px;
+            box-shadow: 0 3px 20px 0px rgb(0 0 0 / 10%);
+            margin-top: 5rem!important;
+            margin-bottom: 5rem!important;
+            margin-right: 1rem!important;
+            margin-left: 1rem!important;
+        }
+    }
+    
+    .bodyhasildiag {
+        background-image: url(../gambar/Index/diagnosaindex.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
